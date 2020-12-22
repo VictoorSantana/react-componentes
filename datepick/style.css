@@ -1,0 +1,9 @@
+.dtkr-hover:hover {
+    background-color: #f0f8ff;
+}
+.dtkr-tableCalendar {
+    display: none;
+}
+.dtkr-fieldSelected:focus + .dtkr-tableCalendar, .dtkr-tableCalendar:hover {
+    display: block;
+}
